@@ -13,12 +13,9 @@ int contador=0;
 
 void  enterdata()
 {
-    int var;
     printf("Entre com o codigo \n");
-    scanf("%d", &var);
+    scanf("%d", &auxiliar->codigo);
     fflush(stdin);
-    auxiliar->codigo = var;
-    printf("codigo: %d\n", auxiliar->codigo);
 }
 
 int enqueue ()
